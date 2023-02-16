@@ -1,0 +1,28 @@
+{
+  "name": "example-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlatFilers/Example-Snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlatFilers/Example-Snippets/issues"
+  },
+  "homepage": "https://github.com/FlatFilers/Example-Snippets#readme",
+  "dependencies": {
+    "@flatfile/api": "^0.0.11",
+    "@flatfile/configure": "^0.5.14",
+    "remeda": "^1.6.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
+}
