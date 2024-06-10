@@ -19,11 +19,11 @@ npm install --save xlsx remeda @flatfile/configure @flatfile/api
 import { SpaceConfig } from "@flatfile/configure";
 import { ExcelExtractor } from "./excel.extractor";
 
-// listen to the upload:completed event
+// listen to the file:created event
 export default new SpaceConfig({
   name: 'your space config',
   workbookConfigs: { /* your configs */ }
-}).on('upload:completed', (event) => {
+}).on('file:created', (event) => {
   return new ExcelExtractor(event).runExtraction()
 })
 ```
